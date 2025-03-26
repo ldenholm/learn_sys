@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Git\\learn_sys\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37630E31-6E65-4988-8DA7-35A737E749ED}|learn_sys\\learn_sys.vcxproj|G:\\Git\\learn_sys\\learn_sys\\learn_sys.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{37630E31-6E65-4988-8DA7-35A737E749ED}|learn_sys\\learn_sys.vcxproj|solutionrelative:learn_sys\\learn_sys.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "learn_sys.cpp",
+              "DocumentMoniker": "G:\\Git\\learn_sys\\learn_sys\\learn_sys.cpp",
+              "RelativeDocumentMoniker": "learn_sys\\learn_sys.cpp",
+              "ToolTip": "G:\\Git\\learn_sys\\learn_sys\\learn_sys.cpp",
+              "RelativeToolTip": "learn_sys\\learn_sys.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-26T09:26:36.549Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
