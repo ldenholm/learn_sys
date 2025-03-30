@@ -2,6 +2,63 @@
 //
 
 #include <iostream>
+#include <array>
+#include <vector>
+
+
+int main()
+{
+
+
+    // container stuff
+
+    //int a[10]; // stack
+    //a[17] = 6;
+
+    std::array<int, 10> b;
+    /*for (int i = 0; i < b.size(); i++)
+    {
+        b[i] = somevalue();
+    }*/
+
+    for (std::array<int, 10>::iterator i = b.begin(); i != b.end(); i++)
+    {
+        modIteratorByRef(*i);
+    }
+
+    // more succinct expression
+    for (auto i = b.begin(); i != b.end(); i++)
+    {
+        modIteratorByRef(*i);
+    }
+
+    // even more concise
+    for (auto& i : b)
+    {
+        modIteratorByRef(i);
+    }
+
+    // traversal like: a + x * sizeof(int)
+
+    //int* b = new int[10]; // heap
+
+    //delete[] b; // free
+
+
+    // V E C T O R S
+
+
+
+
+    /*std::cout << "Hello World!\n";
+      point_2d pt = {
+        5,
+        10
+};
+      pt.shiftUpByN(5);*/
+
+}
+
 
 struct point_2d
 {
@@ -34,13 +91,7 @@ private:
     node m_head;
 };
 
-int main()
+int& modIteratorByRef(int &i)
 {
-    std::cout << "Hello World!\n";
-    point_2d pt = {
-        5,
-        10
-    };
-    pt.shiftUpByN(5);
-
+    return i += 5;
 }
