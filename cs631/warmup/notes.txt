@@ -1,0 +1,8 @@
+Lets check if we can compile the welcome.c program using the gnu c compiler.
+I'm assuming it comes with wsl...
+
+Fix the errors, mainly getlogin() is an int but str has char substitute. 
+Also need to add the unistd to address the implicit func def for getlogin.
+
+I have swapped getlogin with getpwnam() and added an run argument for username,
+we also import the pwd.h for the passwd struct.
