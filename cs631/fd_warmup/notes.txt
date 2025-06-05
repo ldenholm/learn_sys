@@ -1,2 +1,3 @@
 We'll add an argument for file path and this will be the file our program
-opens.
+opens. We get a segmentation fault when opening the file a second time
+without closing the first open.
