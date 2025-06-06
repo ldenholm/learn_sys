@@ -5,3 +5,4 @@
 /learn_sys/x64/Debug
 .vs
 **/*.out
+/resources
