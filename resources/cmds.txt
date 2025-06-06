@@ -1,0 +1,1 @@
+gcc -c first_c.c
