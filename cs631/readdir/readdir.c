@@ -8,6 +8,8 @@ int main(int argc, char** argv) {
 	//placate the compiler
 	(void)argc;
 	(void)argv;
+
+	// declarations and inits
 	struct dirent* dent;
 	DIR* dp;
 	char* path;
@@ -15,13 +17,12 @@ int main(int argc, char** argv) {
 	char* bp;
 
 	bp = buff;
-
 	path = getcwd(bp, sizeof(buff));
 	printf("cwd = %s\n", path);
 	dp = opendir(path);
-	dent = readdir(dp);
-	printf("entry = %s\n", dent->d_name);
-
+	while ((dent = readdir(dp))!= NULL) {	
+		printf("entry = %s\n", dent->d_name);
+	}
 
 	return EXIT_SUCCESS;
 }
